@@ -6,6 +6,6 @@ Spotify rates each songs popularity on a 0 to 100 scale and designates any song 
 
 I utilized a Random Forest Model, a Balanced Random Forest Model, Random Forest/Smote Model, XGB Boost/Smote model and an Ensemble Model. I produced a classification report for each model which displayed precision, recall and f1-scores. I then compiled each models result in an easily digestible table matrix. 
 
-Ultimately, the best performing model was the Random Forest Model utilizing Smote which is an oversampling technique to help offset an imbalance in classes. This allows the model to train and learn on more examples of the minority class and produce stronger predcition results. The Random Forest Smote produced a Precision score of 88.65%, a Recall score of 91.71% and an F1-Score of 90.15%.
+Ultimately, the best performing model was the Random Forest Model utilizing Smote which is an oversampling technique to help offset an imbalance in classes. This allows the model to train and learn on more examples of the minority class and produce stronger prediction results. The Random Forest Smote produced a Precision score of 88.65%, a Recall score of 91.71% and an F1-Score of 90.15%.
 
 Let me know your thoughts and what I could have done differently!
